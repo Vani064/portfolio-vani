@@ -192,7 +192,7 @@ section:nth-child(2n+1){
     align-items: center;
 }
 .skill-img{
-   width: 30%;
+   width: 20%;
    
 }
 .skill-img img{
@@ -203,7 +203,7 @@ section:nth-child(2n+1){
 
 .skill-progress{
     background-color: black;
-    width: 25rem;
+    width: 10rem;
     height: 1.4rem;
     border-radius: 0.8rem;
     text-overflow: hidden;
