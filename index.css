@@ -109,13 +109,26 @@ strong{
     position: fixed;
     transition: all 2s ease-in-out;
 }
-
+@media  screen and  (min-width:400px) {
 #lightbox:target{
     height: 100%;
     width: 100%;
     top: 25%;
     left: 25%;
 }
+}
+
+@media  (max-width:400px){
+    #lightbox:target{
+        padding: 10px;
+        height: 100%;
+        width: 100%;
+        top: 25%;
+        left: 5%;
+    }
+}
+
+
 
 .social-icons li a i{
     margin-right : 5px;
@@ -308,7 +321,7 @@ section:nth-child(2n+1){
     text-align: center;
 }
 
-#div2{
+#div2c{
     color: white;
     width: 50%;
     margin-right: 30px;;
@@ -544,10 +557,10 @@ section:nth-child(2n+1){
         text-align: center;
     }
     
-    #div2{
+    #div2c{
         color: white;
         width: 50%;
-        margin-right: 30px;
+        margin-left: 30px;
         text-align: center;
     }
 
@@ -572,6 +585,20 @@ section:nth-child(2n+1){
     .nav-menu {
         display: none;
     } 
+    .timeline{
+        margin-left: 0%;
+    }
+    .timeline-box{
+        width: 80%;
+    }
+    .timeline-divider
+    {
+        display: none;
+    }
+    .timeline-traveller
+    {
+        display: none;
+    }
 }
 
 :root {
