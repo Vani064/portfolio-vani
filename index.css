@@ -406,7 +406,7 @@ section:nth-child(2n+1){
 }
 .timeline-divider{
     position: absolute;
-    height: 75%;
+    height: 66%;
     width: 0;
     border: 1px dashed #061798;
     top:10%;
@@ -415,15 +415,15 @@ section:nth-child(2n+1){
 
 .timeline-traveller{
     position: sticky;
-    top:10%;
-    color: #b3bbf8;
-    transform: rotate(90deg);
-    text-align: center;
+    top:145px;
     z-index: 2;
 }
 .timeline-traveller i{
+    transform: rotate(90deg);
+    margin-top: -25px;
+    display: block;
+    color: #b3bbf8;
     font-size: 25px;
-    text-align: center;
 }
 
 
@@ -487,26 +487,27 @@ section:nth-child(2n+1){
     }
     .timeline-divider{
         position: absolute;
-        height: 75%;
+        height: 66%;
         width: 0;
         border: 1px dashed #061798;
         top:10%;
-        left: 70%;
+        left: 80%;
     }
     
     .timeline-traveller{
         position: sticky;
-        top:10%;
-        color: #b3bbf8;
-        transform: rotate(90deg);
-        text-align: center;
+        top:145px;
         z-index: 2;
     }
     .timeline-traveller i{
+        transform: rotate(90deg);
+        margin-top: -25px;
+        display: block;
+        color: #b3bbf8;
         font-size: 25px;
-        text-align: center;
     }
-
+    
+    
     .contact-card{
         display: flex;
         flex-direction: column;
